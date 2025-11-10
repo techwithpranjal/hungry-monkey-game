@@ -291,6 +291,7 @@ export const levels = [
     foods: ["banana", "carrot", "bamboo"],
     targetAnimal: "jungle",
     targetFood: "foods",
+    foodClasses: "!w-30 !h-30",
   },
   {
     id: 11,
@@ -378,6 +379,7 @@ export const levels = [
     foods: ["banana", "bamboo", "carrot"],
     targetAnimal: "hare",
     targetFood: "foods",
+    foodClasses: "!w-30 !h-30",
   },
   {
     id: 15,
@@ -421,6 +423,7 @@ export const levels = [
     foods: ["banana", "carrot", "bamboo"],
     targetAnimal: "hare",
     targetFood: "foods",
+    foodClasses: "!w-30 !h-30",
   },
   {
     id: 15,
@@ -902,5 +905,5 @@ export const levels = [
     targetFood: "foods",
     animalClasses: "!w-16 !h-16",
   },
-  
+
 ];

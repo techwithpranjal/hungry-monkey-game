@@ -109,7 +109,7 @@ const App = (props) => {
                       ? hareImage
                       : pandaImage
                   }
-                  className={`w-30 h-30 mx-6 object-contain relative ${level.animalClasses} ${
+                  className={`w-30 h-30 mx-6 object-contain z-10 relative ${level.animalClasses} ${
                     level.targetAnimal === animal ? position : ""
                   }`}
                   alt={animal}
@@ -136,7 +136,7 @@ const App = (props) => {
                       ? bambooImage
                       : carrotImage
                   }
-                  className={`relative w-16 mx-6 h-16 object-contain ${
+                  className={`relative w-20 mx-6 h-20 object-contain ${level.foodClasses} ${
                     level.targetFood === food ? level?.targetClasses : ""
                   }`}
                   alt={food}
