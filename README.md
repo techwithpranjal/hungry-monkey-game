@@ -9,6 +9,8 @@ The game provides instant visual feedback, simple animations, sound effects, hin
 # Demo
 https://techwithpranjal.github.io/hungry-monkey-game/
 
+<img src="/src/assets/images/demo.png" alt="Visual hierarchy details" />
+
 # Features
 - Animated characters and theme-based levels
 - A built-in Tailwind class editor with real-time validation
